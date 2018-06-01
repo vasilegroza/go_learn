@@ -16,7 +16,7 @@ Packages helps us to organize our code
   ```bash
   go get -u github.com/vasilegroza/go_learn 
   ```
-  if the repo is private run
+  if the repo is private rungo
   ```sh 
   git config --global url."git@github.com:".insteadOf "https://github.com/"
   ```
