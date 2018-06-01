@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"vasilegroza/02_package/stringutil"
+	"github.com/vasilegroza/go_learn/02_package/stringutil" // istalled custom package
 )
 
 func main() {
