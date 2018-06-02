@@ -48,7 +48,7 @@
 
 Go also has support for constants. Constants are basically variables whose values cannot be changed later. 
 
-- instead of using var keywork use const
+- instead of using var keyword use const
     ```go
     package main
     import fmt
@@ -71,7 +71,8 @@ var (
 ```
 
 # Problems
-* What are two ways to create a new variable?
+
+* [x] What are two ways to create a new variable?
     - full definition   
         ```go
         var number int = 10
@@ -80,18 +81,18 @@ var (
         ```go
         number := 10
         ```
-* What is the value of x after running: 
+* [x] What is the value of x after running: 
 x := 5; x += 1?
     - the value of is would be **6**
 
-* What is scope and how do you determine the scope of a variable in Go?
+* [x] What is scope and how do you determine the scope of a variable in Go?
     - The scope of a variable is the immediate block in which a variable was declared.
 
-* What is the difference between var and const?
+* [x] What is the difference between var and const?
     - the variable can be changed after it's initialization and the constant can't.
 
-* Using the example program as a starting point, write a program that converts from Fahrenheit into Celsius. (C = (F - 32) * 5/9)
+* [x] Using the example program as a starting point, write a program that converts from Fahrenheit into Celsius. (C = (F - 32) * 5/9)
     - see [convertor](./convertor/main.go)
-Write another program that converts from feet into meters. (1 ft = 0.3048 m)
+* [x] Write another program that converts from feet into meters. (1 ft = 0.3048 m)
     - see [convertor](./convertor.1/main.go)
     
