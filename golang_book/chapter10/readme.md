@@ -1,13 +1,13 @@
-# Concurrency [§](https://www.golang-book.com/books/intro/9)
+# Concurrency [§](https://www.golang-book.com/books/intro/10)
 
 - Go has rich support for concurrency using goroutines and channels.
 
-## Goroutines [§](https://www.golang-book.com/books/intro/9#section1)
+## Goroutines [§](https://www.golang-book.com/books/intro/10#section1)
 
 - A goroutine is a function that is capable of running concurrently with other functions. To create a goroutine we use the keyword go followed by a function invocation
 - see [example](./main.go)
 
-## Channels [§](https://www.golang-book.com/books/intro/9#section2)
+## Channels [§](https://www.golang-book.com/books/intro/10#section2)
 
 - Channels provide a way for two goroutines to communicate with one another and synchronize their execution. Here is an example program using channels:
 
